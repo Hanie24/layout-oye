@@ -7,6 +7,7 @@ export default {
   ],
   theme: {
     colors: {
+      white: "#ffffff",
       transparent: "transparent",
       current: "currentColor",
       cloud: "#f7f8f7",
@@ -26,9 +27,19 @@ export default {
       whitetogray: "#F9F9F9",
       gray: "#7E7E7F",
     },
+    fontSize: {
+      3: "12px",
+      3.5: "14px",
+      3.8: "15px",
+      4: "16px",
+      5: "20px",
+      6: "24px",
+      8: "32px",
+    },
     extend: {
       spacing: {
         4.5: "19px",
+        5.4: "22px",
         5.5: "23px",
         6.1: "25px",
         7.5: "29px",
@@ -36,9 +47,11 @@ export default {
         15: "60px",
         22: "84px",
         26: "100px",
+        32.5: "129px",
         50: "202px",
         54: "212px",
         54.5: "215px",
+        55: "229px",
         78: "312px",
         81: "324px",
         82: "326px",
@@ -46,6 +59,9 @@ export default {
         84.5: "360px",
         110: "488px",
         120: "517px",
+      },
+      minWidth: {
+        38: "150px",
       },
     },
     fontFamily: {
